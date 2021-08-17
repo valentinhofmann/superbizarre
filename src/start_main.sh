@@ -2,7 +2,7 @@
 
 for random_seed in {0..19}
 do
-	python3.8 -u main.py \
+	python3 -u main.py \
 	--batch_size 64 \
 	--lr 0.000003 \
 	--random_seed $random_seed \
