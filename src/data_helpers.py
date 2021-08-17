@@ -13,7 +13,7 @@ class SADataset(Dataset):
         self.tok = BertTokenizer.from_pretrained('bert-base-uncased')
         self.derivator = Derivator()
 
-        data = pd.read_csv('{0}/csv/{0}_{1}.csv'.format(name, split))
+        data = pd.read_csv('../data/{0}/csv/{0}_{1}.csv'.format(name, split))
 
         self.labels = list(data.label)
         self.derivatives = list(data.derivative.apply(tokenize, args=(self.tok, self.derivator, tok_type, )))

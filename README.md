@@ -10,7 +10,7 @@ The code requires `Python>=3.6`, `numpy>=1.18`, `torch>=1.2`, and `transformers>
 
 The three datasets used in the experiments can be found in `data`.
 The datasets are provided as csv files and as segmentation-specific pickled PyTorch datasets that can be easily loaded for model training.
-The repository also contains the code for generating the different segmentations in `data`.
+The repository also contains the code for generating the different segmentations in `src`.
 
 # Usage
 
