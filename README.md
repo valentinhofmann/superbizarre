@@ -1,6 +1,6 @@
 # Superbizarre Is Not Superb
 
-This repository contains the code and data for the 2021 ACL paper [Superbizarre Is Not Superb: Derivational Morphology Improves BERT's Interpretation of Complex Words](https://aclanthology.org/2021.acl-long.279.pdf).
+This repository contains the code and data for the ACL paper [Superbizarre Is Not Superb: Derivational Morphology Improves BERT's Interpretation of Complex Words](https://aclanthology.org/2021.acl-long.279.pdf).
 
 # Dependencies
 
