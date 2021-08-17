@@ -13,9 +13,9 @@ The datasets contain derivatives with corresponding semantic classes (sentiment 
 Please refer to the paper for details about the datasets.
 The labeling of the datasets is as follows:
 
-- Amazon (sentiment): 0 -- negative (e.g., _overpriced_, _crappy_), 1 -- positive (e.g., _megafavorite_, _applausive_)
-- ArXiv (topicality): 0 --  physics (e.g., _semithermal_, _ozoneless_), 1 -- computer science (e.g., _autoencoded_, _rankable_)
-- Reddit (topicality): 0 -- entertainment (e.g., _supervampires_, _spoilerful_), 1 -- knowledge (e.g., _antirussian_, _immigrationism_)
+- Amazon: 0 = negative (e.g., _overpriced_, _crappy_), 1 = positive (e.g., _megafavorite_, _applausive_)
+- ArXiv: 0 = physics (e.g., _semithermal_, _ozoneless_), 1 = computer science (e.g., _autoencoded_, _rankable_)
+- Reddit: 0 = entertainment (e.g., _supervampires_, _spoilerful_), 1 = knowledge (e.g., _antirussian_, _immigrationism_)
 
 The datasets are provided as csv files and as segmentation-specific pickled PyTorch datasets that can be easily loaded for model training.
 The repository also contains the code for generating the different segmentations in `src`.
