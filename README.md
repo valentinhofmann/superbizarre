@@ -1,7 +1,7 @@
 # Superbizarre Is Not Superb
 
 This repository contains the code and data for the ACL paper [Superbizarre Is Not Superb: Derivational Morphology Improves BERT's Interpretation of Complex Words](https://aclanthology.org/2021.acl-long.279.pdf).
-The paper shows that a derivational input segmentation helps BERT understand the meaning of complex words, particularly if they have not been seen during pretraining.
+The paper shows that a derivational input segmentation helps BERT understand the meaning of complex words, particularly if they did not appear during pretraining.
 
 # Dependencies
 
